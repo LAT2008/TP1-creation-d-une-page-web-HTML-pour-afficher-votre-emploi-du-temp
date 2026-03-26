@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon emploi du temps </title>
+    </head>
+    <style>
+        table{
+            width:100%;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: #d9d9d9;
+        }
+        th,td{
+            border:1px solid black;
+            padding: 8px;
+            text-align:center;
+            font-size: 13px;
+        }
+    </style>
+    <body>
+        <h2>Emploi du temps  "povisoire" __IAIL - s2</h2>
+        <table border="1">
+            <tr>
+            <th></th>
+            <th>9:00-10:30</th>
+            <th>10:30-12:00</th>
+            <th>12:15-13:45</th>
+            <th>13:45-15:15</th>
+            <th>15:30-17:00</th>
+            <th>17:30-18:00</th>
+            </tr>
+            <tr>
+                <td bgcolor="gray">Lundi</td>
+                <td>programmation python 2<br>Prof M.laraqui<br>cours-Amphi A</td>
+                <td>algorithme et programmation C2 <br> Prof h.oudani<br>cours-Amphi A</td>
+                <td></td>
+                <td>algorithme et programation C2 <br><span style="color:red;">TD/TP GRP1 salle P2</span><br>Prof h.oudani</td>
+                <td>programmation et python 2<br><span style="color:red;">TD/TP GRP3 salle P2</span><br>Pof A.elouardi </td>
+                <td>programmation et python 2<br><span style="color:red;">TD/TP GRP2 salle P2</span><br>Pof A.elouardi</td>
+            </tr>
+            <tr> 
+                <td bgcolor="gray">Mardi</td>
+                <td>programmation et python 2<br><span style="color:red;">TD/TP GRP1 salle P2</span><br>Pof A.elouardi</td>
+                <td></td>  
+                <td>digital skills & intelligence artificelle <br>cours-Amphi A<br>Prof A.elouardi</td>
+                <td>digital skills & intelligence artificelle <br>TD/TP<br>Prof A.elouardi</td>
+                <td></td>
+                <td></td>
+            
+            </tr> 
+            <tr>
+                <td bgcolor="gray">Mercredi</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>algorithme et programmation C2 <br><span style="color:red;">TD/TP GRP2 salle P2</span><br>Prof H.oudani</td>
+                <td>Algébre 2 TD-Amphi A<br>Prof I.Boutaayamo</td>
+                <td>Analyse 2 TD-amphi A <br>Prof A.Hadri</td>
+            </tr>
+            <tr>
+                <td bgcolor="gray">Jeudi</td>
+                <td>Traitement du signal <br>Cours - Amphi A<br>Prof H.Azzahhafi</td>
+                <td>Traitement du signal<br>TD - Amphi A <br> Prof H. Azzahhafi</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td bgcolor="gray">Vendredi</td>
+                <td>Algebre 2<br>cours - Amphi C<br>Prof I.Boutaayamo</td>
+                <td>Analyse 2<br>cours - Amphi C<br> Prof A.Hadri</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td bgcolor="gray">Samedi</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>programmation Web 1<br><span style="color:red;">TD/TP G2 - salle P2</span><br>Prof A.Hakim</td>
+                <td>Programmation Web 1<br>cours - salle P1<br>Prof K.Omari</td>
+                <td>programmation Web 1<br><span style="color:red;">TD/TP G2 - salle P2</span><br>Prof K.Omari</td>
+            </tr>
+        </table>
+    </body>
+</html>            
